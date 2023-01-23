@@ -2,7 +2,11 @@
   "name": "darqeube",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://evgheni-cernev.github.io/appleNews",
   "dependencies": {
+    "@mantine/hooks": "^5.10.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@tailwindcss/line-clamp": "^0.4.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,13 +14,25 @@
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
+    "@types/react-redux": "^7.1.25",
+    "axios": "^1.2.2",
+    "dotenv": "9.0.2",
+    "finnhub": "^1.2.16",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-query": "^3.39.2",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
+    "tailwindcss": "^3.2.4",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +55,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "gh-pages": "^5.0.0"
   }
 }
