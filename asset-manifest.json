@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/appleNews/static/css/main.d135bc25.css",
-    "main.js": "/appleNews/static/js/main.78992d1b.js",
-    "index.html": "/appleNews/index.html",
-    "main.d135bc25.css.map": "/appleNews/static/css/main.d135bc25.css.map",
-    "main.78992d1b.js.map": "/appleNews/static/js/main.78992d1b.js.map"
+    "main.css": "/news/static/css/main.d135bc25.css",
+    "main.js": "/news/static/js/main.8f7eda61.js",
+    "index.html": "/news/index.html",
+    "main.d135bc25.css.map": "/news/static/css/main.d135bc25.css.map",
+    "main.8f7eda61.js.map": "/news/static/js/main.8f7eda61.js.map"
   },
   "entrypoints": [
     "static/css/main.d135bc25.css",
-    "static/js/main.78992d1b.js"
+    "static/js/main.8f7eda61.js"
   ]
 }
